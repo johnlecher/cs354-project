@@ -15,7 +15,7 @@ public class dataAgg {
 	        Scanner term = new Scanner(System.in);
 	        System.out.print("Enter what term to search for: ");
 	        String search = term.nextLine();
-	        System.out.println("Searching for: " + "[" +search+ "}");
+	        System.out.println("Searching for: " + "[" +search+ "]");
 	        while(strLine != null) {
 	        	strSplit = strLine.split(",");
 	        	for(int j = 0; j<strSplit.length; j++) {
