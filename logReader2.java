@@ -13,7 +13,7 @@ public static void main(String[] args) {
         BufferedWriter out = new BufferedWriter(new FileWriter("src/SystemLog.csv"));
         String strLine = br.readLine(); // read log line by line 
         String[] strSplit;
-        while (strLine != null) {
+        while(strLine != null) {
             strSplit = strLine.split(",");
             for(int i = 0; i<strSplit.length; i++) {
                 out.write(strSplit[i]+",");
